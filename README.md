@@ -68,8 +68,6 @@ $ ros2 control switch_controllers --activate joint_state_broadcaster --deactivat
 $ ros2 topic pub /velocity_controller/commands std_msgs/msg/Float64MultiArray "data: [0.1, 0.1, 0.1, 0.1, 0]"
 ```
 
-[![dynamixel_control: the ros2_control implementation for any kind of ROBOTIS Dynamixel robots](https://img.youtube.com/vi/EZtBaU-otzI/0.jpg)](https://www.youtube.com/watch?v=EZtBaU-otzI)
-
 ## Demo with dummy ROBOTIS small arm
 
 The `use_dummy` parameter is required if you use the dummy small arm.
