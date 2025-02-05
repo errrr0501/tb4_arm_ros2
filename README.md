@@ -17,7 +17,7 @@ $ colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 $ . install/setup.bash
 ```
 
-## Demo with real ROBOTIS OpenManipulator-X
+## Demo with real ROBOTIS small arm
 
 ### Configure Dynamixel motor parameters
 
