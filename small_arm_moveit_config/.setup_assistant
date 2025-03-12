@@ -5,21 +5,6 @@ moveit_setup_assistant_config:
   srdf:
     relative_path: config/small_arm.srdf
   package_settings:
-    author_name: TaiTing Tsai
+    author_name: Taiting Tsai
     author_email: errrr0501done@gmail.com
-    generated_timestamp: 1733819894
-  control_xacro:
-    command:
-      - position
-    state:
-      - position
-      - velocity
-  modified_urdf:
-    xacros:
-      - control_xacro
-  control_xacro:
-    command:
-      - position
-    state:
-      - position
-      - velocity
+    generated_timestamp: 1739976847
