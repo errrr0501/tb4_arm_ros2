@@ -31,7 +31,7 @@ int main(int argc, char * argv[])
   tf2::Vector3 translation_in_tool_frame(0.0, 0.0, 0.1); // Move z 10 cm forward
   tf2::Vector3 translation_in_world_frame = tf2::quatRotate(orientation, translation_in_tool_frame);
 
-  // Create a target Pose for the end-effector\
+  // Create a target Pose for the end-effector
   geometry_msgs::msg::Pose target_pose = current_pose.pose;
   target_pose.position.x += translation_in_world_frame.x();
   target_pose.position.y += translation_in_world_frame.y();
