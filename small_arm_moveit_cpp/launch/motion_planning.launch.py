@@ -19,7 +19,7 @@ def generate_launch_description():
         .robot_description_semantic(file_path="config/small_arm.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
         .moveit_cpp(
-            file_path=get_package_share_directory("ur_moveit_cpp")
+            file_path=get_package_share_directory("small_arm_moveit_cpp")
             + "/config/moveit_cpp.yaml"
         )
         .to_moveit_configs()
@@ -34,7 +34,7 @@ def generate_launch_description():
 
     moveit_cpp_node = Node(
         name="moveit_cpp",
-        package="ur_moveit_cpp",
+        package="small_arm_moveit_cpp",
         executable=LaunchConfiguration("cpp_node"),
         output="both",
         parameters=[moveit_config.to_dict()],
