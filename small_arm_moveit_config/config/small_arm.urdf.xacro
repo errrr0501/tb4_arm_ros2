@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="small_arm">
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
-    <xacro:arg name="ros2_control_hardware_type" default="mock_components" />
+    <xacro:arg name="ros2_control_hardware_type" default="fake" />
 
     <!-- Import small_arm urdf file -->
     <xacro:include filename="$(find small_arm_description)/urdf/small_arm.urdf.xacro" />

@@ -23,6 +23,6 @@ moveit_simple_controller_manager:
   gripper_controller:
     type: GripperCommand
     joints:
-      - joint7
+      - gripper_joint1
     action_ns: gripper_cmd
     default: true

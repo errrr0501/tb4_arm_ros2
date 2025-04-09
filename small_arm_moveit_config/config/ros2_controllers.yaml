@@ -30,4 +30,4 @@ small_arm_controller:
       - velocity
 gripper_controller:
   ros__parameters:
-    joint: joint7
+    joint: gripper_joint1
