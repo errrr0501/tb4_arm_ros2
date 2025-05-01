@@ -9,8 +9,6 @@ moveit_simple_controller_manager:
 
   small_arm_controller:
     type: FollowJointTrajectory
-    action_ns: follow_joint_trajectory
-    default: true
     joints:
       - joint1
       - joint2
